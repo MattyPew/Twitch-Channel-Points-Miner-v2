@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # RPI FIX
-import os
-os.chdir("/home/pi/Projekty/TwitchMiner")
+#import os
+#os.chdir("/home/pi/Projekty/TwitchMiner")
 
 import logging
 from colorama import Fore
