@@ -17,6 +17,9 @@ from TwitchChannelPointsMiner.classes.Settings import Priority, Events, Follower
 from TwitchChannelPointsMiner.classes.entities.Bet import Strategy, BetSettings, Condition, OutcomeKeys, FilterCondition, DelayMode
 from TwitchChannelPointsMiner.classes.entities.Streamer import Streamer, StreamerSettings
 
+from keep_alive import keep_alive
+keep_alive()
+
 twitch_miner = TwitchChannelPointsMiner(
     username="",
     password="",          # If no password will be provided, the script will ask interactively
