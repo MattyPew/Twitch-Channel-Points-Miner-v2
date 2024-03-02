@@ -21,7 +21,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 twitch_miner = TwitchChannelPointsMiner(
-    username="",
+    username="NumbMorde",
     password="",          # If no password will be provided, the script will ask interactively
     claim_drops_startup=False,                  # If you want to auto claim all drops from Twitch inventory on the startup
     priority=[                                  # Custom priority in this case for example:
