@@ -99,7 +99,7 @@ twitch_miner = TwitchChannelPointsMiner(
 
 
 
-twitch_miner.analytics(host="0.0.0.0", port=5000, refresh=5, days_ago=7)
+#twitch_miner.analytics(host="0.0.0.0", port=5000, refresh=5, days_ago=7)
 
 # You can customize the settings for each streamer. If not settings were provided, the script would use the streamer_settings from TwitchChannelPointsMiner.
 # If no streamer_settings are provided in TwitchChannelPointsMiner the script will use default settings.
